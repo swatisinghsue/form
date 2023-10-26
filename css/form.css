@@ -1,0 +1,32 @@
+
+.cust_outer{margin-left: 20px;
+margin-right: 20px;}
+.cust_row{
+    margin-right: 0rem;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.error{
+    color:red;
+  }
+/* Medai querry small screen */
+
+@media screen and (max-width: 480px)
+{
+    .cust_row{
+        margin-left: 0rem;
+        margin-right: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+@media screen and ((min-width: 768px) and (max-width:1024px))
+{
+    .cust_row{
+        margin-left: 4rem;
+        margin-right: 0rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}

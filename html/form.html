@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>From</title>
+    <link rel="stylesheet" href="/form/css/form.css">
+  </head>
+  <body class="bg-warning">
+    <div class="container-fluid">
+        <div class="row  cust_row">  
+            <div class="col-md-10 col-sm-10">
+                <div class="row">
+                    <div class="col-md-12 bg-light p-2 cust_outer">
+                        <form id="form " method="post" novalidate="novalidate">
+                            <div class="row mb-3">
+                              <label for="fname" class="col-md-2 col-form-label">First Name</label>
+                              <div class="col-md-8">
+                                <input type="text" class="form-control" id="fname" placeholder="First name" name="fname">
+                              </div>
+                            </div>
+                            <div class="row mb-3">
+                              <label for="lname" class="col-md-2 col-form-label">Last Name</label>
+                              <div class="col-md-8">
+                                <input type="text" class="form-control" id="lname" placeholder="last Name" name="lname">
+                              </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="Dob" class="col-md-2 col-form-label">Date Of Birth</label>
+                                <div class="col-md-8">
+                                  <input type="date" class="form-control" id="Dob">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="email" class="col-md-2 col-form-label">Email</label>
+                                <div class="col-md-8">
+                                  <input type="email" class="form-control" id="email" placeholder="Email Id">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="pan" class="col-md-2 col-form-label">Pan Card</label>
+                                <div class="col-md-8">
+                                  <input type="text" class="form-control" id="pan" placeholder="Pan card number">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="adhar" class="col-md-2 col-form-label">Adhar No</label>
+                                <div class="col-md-8">
+                                  <input type="text" class="form-control" id="adhar" placeholder="Adhar card number">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="Dl" class="col-md-2 col-form-label">Driving licence</label>
+                                <div class="col-md-8">
+                                  <input type="text" class="form-control" id="dl" placeholder="Driving licence number">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="Gender" class="col-md-2 col-form-label">Gender</label>
+                                <div class="col-md-8">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="genderm" value="option1">
+                                        <label class="form-check-label" for="genderm">Male</label>
+                                      </div>
+                                      <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="genderf" value="option2">
+                                        <label class="form-check-label" for="genderf">Female</label>
+                                      </div>
+                                </div>
+                        
+                            </div>
+                            <div class="row mb-3">
+                                <label for="adress" class="col-md-2 col-form-label">Address</label>
+                                <div class="col-md-8">
+                                    <textarea class="form-control" id="adress" rows="5"></textarea>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="Pin" class="col-md-2 col-form-label">Pin code</label>
+                                <div class="col-md-8">
+                                  <input type="text" class="form-control" id="pin" placeholder="Pin code">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="state" class="col-md-2 col-form-label">State</label>
+                                <div class="col-md-8">
+                                  <input type="text" class="form-control" id="state" placeholder="State">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="city" class="col-md-2 col-form-label">City</label>
+                                <div class="col-md-8">
+                                  <input type="text" class="form-control" id="city" placeholder="City" name="city">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="country" class="col-md-2 col-form-label">Country</label>
+                                <div class="col-md-8">
+                                  <input type="text" class="form-control" id="city" placeholder="Country">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="Hobbies" class="col-md-2 col-form-label">Hobbies</label>
+                                <div class="col-md-8">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="drawing" value="option1">
+                                    <label class="form-check-label" for="drawing">Drawing</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="singing" value="option2">
+                                    <label class="form-check-label" for="singing">Singing</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="dancing" value="option3">
+                                    <label class="form-check-label" for="dancing">Dnacing</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="sketching" value="option4">
+                                    <label class="form-check-label" for="sketching">Sketching</label>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="qualification" class="col-md-2 col-sm-2 col-form-label">Qualification</label>
+                                <div class="col-md-8 col-sm-10">
+                                  <div class="table-responsive-xl">
+                                    <table class="table">
+                                        <thead class="bg-warning text-white">
+                                            <tr class="table-bordered">
+                                                <th>SL.NO</th>
+                                                <th>Examination</th>
+                                                <th>Board</th>
+                                                <th>Percentage</th>
+                                                <th>Year of Passing</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>
+                                                    <input type="text" id="exam1" placeholder="Examination">
+                                                </td>
+                                                <td>
+                                                    <input type="text" id="bord1" placeholder="Board">
+                                                </td>
+                                                <td>
+                                                    <input type="text" id="percentage1" placeholder="Percentage">
+                                                </td>
+                                                <td>
+                                                    <input type="text" id="year1" placeholder="Year Of Passing">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>
+                                                    <input type="text" id="exam2" placeholder="Examination">
+                                                </td>
+                                                <td>
+                                                    <input type="text" id="bord2" placeholder="Board">
+                                                </td>
+                                                <td>
+                                                    <input type="text" id="percentage2" placeholder="Percentage">
+                                                </td>
+                                                <td>
+                                                    <input type="text" id="year2" placeholder="Year Of Passing">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>
+                                                    <input type="text" id="exam3" placeholder="Examination">
+                                                </td>
+                                                <td>
+                                                    <input type="text" id="bord3" placeholder="Board">
+                                                </td>
+                                                <td>
+                                                    <input type="text" id="percentage3" placeholder="Percentage">
+                                                </td>
+                                                <td>
+                                                    <input type="text" id="year3" placeholder="Year Of Passing">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                      </table>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="courses" class="col-md-2 col-form-label">Courses</label>
+                                <div class="col-md-8">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Bca" value="option1">
+                                        <label class="form-check-label" for="bca">BCA</label>
+                                      </div>
+                                      <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Bba" value="option2">
+                                        <label class="form-check-label" for="bba">BBA</label>
+                                      </div>
+                                </div>
+                        
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-2">
+                               <button class="btn btn-outline-warning">Send Now</button>
+                               </div>
+                            </div>
+                          </form>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
